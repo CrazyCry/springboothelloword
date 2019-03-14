@@ -1,0 +1,1 @@
+一个简单的spring boot hello word程序，用于测试openshift cicd
