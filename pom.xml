@@ -31,15 +31,7 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
- <distributionManagement>
+    <distributionManagement>
         <repository>
             <id>nexus</id>
             <url>https://bmd-nexus.21vcloud.com/repository/maven-releases/</url>
@@ -62,4 +54,5 @@
             </plugin>
         </plugins>
     </build>
+ 
 </project>
